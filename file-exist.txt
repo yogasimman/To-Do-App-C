@@ -1,0 +1,4 @@
+html / ./client/index.html
+css /styles.css ./client/styles.css
+js /script.js ./client/script.js
+json /tasks.json ./client/tasks.json

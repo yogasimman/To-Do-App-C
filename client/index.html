@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="grid-container" id="task-list">
+        <!-- Tasks will be dynamically loaded here -->
+    </div>
+    <button class="add-btn" id="open-modal"><i class="fas fa-plus"></i></button>
+
+    <!-- Modal for adding new task -->
+    <div class="modal" id="task-modal">
+        <div class="modal-content">
+            <button class="back-btn" id="close-modal"><i class="fas fa-arrow-left"></i></button>
+            <form id="task-form">
+                <label for="task-title">Title</label>
+                <input type="text" id="task-title" name="title" required>
+                <label for="task-content">Content</label>
+                <textarea id="task-content" name="content" required></textarea>
+                <button type="submit" class="submit-btn">Add Task</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
